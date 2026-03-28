@@ -55,10 +55,11 @@ This is used by:
 - ✅ **Live packet capture** from any network interface (eth0, wlan0, lo, etc.)
 - ✅ **Multi-layer protocol decoding:**
   - Layer 2 — Ethernet (MAC addresses, EtherType)
-  - Layer 3 — IPv4 and IPv6 (IP addresses, TTL, protocol)
+  - Layer 3 — IPv4 (IP addresses, TTL, protocol)
+  - Layer 3 — IPv6 (IP addresses, next header)
+  - Layer 3 — ICMP (type, code — used by ping)
   - Layer 4 — TCP (ports, sequence numbers, flags: SYN/ACK/FIN/RST/PSH/URG)
   - Layer 4 — UDP (ports, length)
-  - Layer 3 — ICMP (type, code — ping packets)
 - ✅ **BPF filter support** — filter by protocol, port, or IP address
 - ✅ **Raw hex payload preview** — first 24 bytes of every packet
 - ✅ **Real-time statistics** at end of capture:
