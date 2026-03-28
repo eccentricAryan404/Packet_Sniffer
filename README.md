@@ -371,6 +371,3 @@ Building this project taught me:
 
 ## 👤 Author
 **eccentricAryan404**
-
-If this project helped you understand networking or Java — drop a ⭐ on the repo!
-It helps others find it too.
